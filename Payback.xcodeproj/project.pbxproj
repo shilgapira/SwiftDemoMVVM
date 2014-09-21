@@ -14,8 +14,6 @@
 		2B0BC0B319ACE33400235D84 /* PaybackKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0BC09E19ACE33400235D84 /* PaybackKit.framework */; };
 		2B0BC0B419ACE33400235D84 /* PaybackKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0BC09E19ACE33400235D84 /* PaybackKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		2B0BC0C019ACE46000235D84 /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0BC08419ACE18100235D84 /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B8C12AF19BDCAA9007E71EB /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C12AE19BDCAA9007E71EB /* Temp.swift */; };
-		2B8C12B019BDCAA9007E71EB /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C12AE19BDCAA9007E71EB /* Temp.swift */; };
 		2B8C12B419BDD6B5007E71EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C12B119BDD56E007E71EB /* ListViewController.swift */; };
 		2B8C12B619BDEC8B007E71EB /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C12B519BDEC8B007E71EB /* AddViewController.swift */; };
 		2BCCD6C819B90203003487A3 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCD6C719B90203003487A3 /* ListViewModelTests.swift */; };
@@ -94,7 +92,6 @@
 		2B0BC09019ACE18100235D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B0BC09E19ACE33400235D84 /* PaybackKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaybackKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0BC0BE19ACE37E00235D84 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		2B8C12AE19BDCAA9007E71EB /* Temp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		2B8C12B119BDD56E007E71EB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2B8C12B519BDEC8B007E71EB /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		2BCCD6C719B90203003487A3 /* ListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
@@ -232,7 +229,6 @@
 			children = (
 				2BD6C81619B894630025F919 /* Context.swift */,
 				2BD6C81C19B8C8A00025F919 /* Payback.swift */,
-				2B8C12AE19BDCAA9007E71EB /* Temp.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -428,7 +424,6 @@
 			files = (
 				2BD6C81819B894630025F919 /* Context.swift in Sources */,
 				2BD6C81E19B8C8A00025F919 /* Payback.swift in Sources */,
-				2B8C12B019BDCAA9007E71EB /* Temp.swift in Sources */,
 				2BF37A8E19BCF66200FEF46B /* AddViewModel.swift in Sources */,
 				2BD6C80E19B85B780025F919 /* ListViewModel.swift in Sources */,
 			);
@@ -449,7 +444,6 @@
 			files = (
 				2BD6C81719B894630025F919 /* Context.swift in Sources */,
 				2BD6C81D19B8C8A00025F919 /* Payback.swift in Sources */,
-				2B8C12AF19BDCAA9007E71EB /* Temp.swift in Sources */,
 				2BF37A8D19BCF66100FEF46B /* AddViewModel.swift in Sources */,
 				2BD6C80D19B85B770025F919 /* ListViewModel.swift in Sources */,
 			);
